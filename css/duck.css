@@ -2,9 +2,11 @@ body {
   background-image: url("im/silverware.jpg");
   background-repeat: repeat;
 }
-#duck3 {
-list-style-image: url('im/duck3.png')
+
+#BulletDuck {
+  list-style-image: url('im/duck3.png')
 }
-#g {
+
+#Header {
   background-color: lightgrey;
 }
