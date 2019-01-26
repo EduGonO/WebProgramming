@@ -1,10 +1,8 @@
 body {
-  background-image: url("im/silverware.jpg");
+  background-image: url("/Users/edu/github/WebProgramming/im/silverware.jpg");
   background-repeat: repeat;
 }
 
-#BulletDuck {
-  list-style-image: url('im/duck3.png');
-}
+#BulletDuck { list-style-image: url('im/duck3.png'); }
 
-#Header { background-color: rgb(0, 36, 14); }
+#Header { background-color: rgb(238, 238, 238); }
