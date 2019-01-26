@@ -1,8 +1,14 @@
 body {
+  Lucida Sans Unicode, Helvetica, Arial,
   background-image: url("/Users/edu/github/WebProgramming/im/silverware.jpg");
   background-repeat: repeat;
 }
 
 #BulletDuck { list-style-image: url('im/duck3.png'); }
 
-#Header { background-color: rgb(238, 238, 238); }
+#Header {
+  color: #A4A400;
+  font: Lucida Sans Unicode;
+  text-decoration: underline;
+  background-color: rgb(240, 240, 240);
+}
