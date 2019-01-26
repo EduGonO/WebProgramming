@@ -4,9 +4,7 @@ body {
 }
 
 #BulletDuck {
-  list-style-image: url('im/duck3.png')
+  list-style-image: url('im/duck3.png');
 }
 
-#Header {
-  background-color: lightgrey;
-}
+#Header { background-color: rgb(0, 36, 14); }
