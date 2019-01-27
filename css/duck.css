@@ -4,6 +4,10 @@ body {
   background-repeat: repeat;
 }
 
+#MainHeader {
+  color: rgb(20, 20, 240);
+}
+
 #BulletDuck { list-style-image: url('im/duck3.png'); }
 
 #Header {
