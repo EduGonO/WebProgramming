@@ -1,13 +1,12 @@
 body {
   color: #404040;
-  Lucida Sans Unicode, Helvetica, Arial,
   background-image: url("im/silverware.jpg");
   background-repeat: repeat-y;
 }
 
 #MainHeader {
   color: #A4A400;
-  font: 15px "Lucida Sans";
+  font: 15px Helvetica;
   font-weight: bold;
   text-decoration: underline;
   background-color: rgb(240, 240, 240)
@@ -17,7 +16,7 @@ body {
 
 #Header {
   color: #A4A400;
-  font: 15px Helvetica;
+  font: 15px Georgia;
   text-decoration: underline;
   background-color: rgb(240, 240, 240);
 }
