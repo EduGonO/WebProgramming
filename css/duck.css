@@ -1,7 +1,7 @@
 body {
   color: #404040;
   Lucida Sans Unicode, Helvetica, Arial,
-  background-image: url("/Users/edu/github/WebProgramming/im/silverware.jpg");
+  background-image: url("im/silverware.jpg");
   background-repeat: repeat-y;
 }
 
