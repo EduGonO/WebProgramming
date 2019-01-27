@@ -5,7 +5,10 @@ body {
 }
 
 #MainHeader {
-  color: rgb(20, 20, 240);
+  color: #A4A400;
+  font: 15px Helvetica;
+  text-decoration: underline;
+  background-color: rgb(240, 240, 240)
 }
 
 #BulletDuck { list-style-image: url('im/duck3.png'); }
