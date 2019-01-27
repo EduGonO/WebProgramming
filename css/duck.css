@@ -23,7 +23,8 @@ body {
 }
 
 #Review {
-  color: #A4A400;
-  font: 40px Georgia, Garamond,sans-serif;
+  color: #404040;
+  font: 11px Georgia, Garamond,sans-serif;
+  background-color: rgb(255, 255, 203);
   text-decoration: underline;
 }
