@@ -1,12 +1,12 @@
 body {
-  color: #404040;
+  color: rgb(24, 24, 240);
   background-image: url("im/silverware.jpg");
   background-repeat: repeat-y;
 }
 
 #MainHeader {
   color: #A4A400;
-  font: 22px "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+  font: 22px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
   font-weight: bold;
   text-decoration: underline;
   background-color: rgb(240, 240, 240)
@@ -16,7 +16,7 @@ body {
 
 #Header {
   color: #A4A400;
-  font: 18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font: 18px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
   text-decoration: underline;
   background-color: rgb(240, 240, 240);
 }
