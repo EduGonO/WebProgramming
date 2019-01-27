@@ -1,5 +1,6 @@
 body {
-  color: rgb(24, 24, 240);
+  color: #404040;
+  font: 22px Georgia, Garamond,sans-serif;
   background-image: url("im/silverware.jpg");
   background-repeat: repeat-y;
 }
