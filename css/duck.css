@@ -6,7 +6,7 @@ body {
 
 #MainHeader {
   color: #A4A400;
-  font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font: 22px "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
   font-weight: bold;
   text-decoration: underline;
   background-color: rgb(240, 240, 240)
@@ -16,7 +16,7 @@ body {
 
 #Header {
   color: #A4A400;
-  font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font: 18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-decoration: underline;
   background-color: rgb(240, 240, 240);
 }
