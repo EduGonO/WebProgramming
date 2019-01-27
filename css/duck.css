@@ -13,7 +13,9 @@ body {
   background-color: rgb(240, 240, 240)
 }
 
-#BulletDuck { list-style-image: url('im/duck3.png'); }
+#BulletDuck {
+  list-style-image: url('/im/duck3.png'); 
+}
 
 #Header {
   color: #A4A400;
@@ -26,4 +28,8 @@ body {
   color: #404040;
   font: 11px Georgia, Garamond,sans-serif;
   background-color: rgb(255, 255, 203);
+}
+
+#Links {
+  color: #A4A400;
 }
