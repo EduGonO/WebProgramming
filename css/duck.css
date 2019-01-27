@@ -8,7 +8,7 @@ body {
 
 #Header {
   color: #A4A400;
-  font: lucida, sans-serif;
+  font: "Lucida Sans Unicode";
   text-decoration: underline;
   background-color: rgb(240, 240, 240);
 }
