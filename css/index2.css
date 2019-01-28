@@ -33,7 +33,7 @@ article {
   padding: 20px;
   width: 33%;
   text-decoration: none;
-  background-color: rgb(163, 18, 148);
+  background-color: rgb(47, 50, 53);
   color: #e6e6e6;
   height: 300px; /* only for demonstration, should be removed */
 }
@@ -41,6 +41,8 @@ article {
 article a {
   font: 22px "Avenir", Helvetica, Arial, sans-serif;
   text-decoration: none;
+  color: #e6e6e6;
+  font-size: 14px;
 }
 
 article { /*Roasted Duck Recipie*/
