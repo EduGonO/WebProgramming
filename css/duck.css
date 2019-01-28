@@ -29,7 +29,7 @@ h2 {
   background-color: rgb(240, 240, 240);
 }
 
-ol li ul.bullet {
+ol {
   list-style-image: url('im/duck3.png')
 }
 
@@ -60,7 +60,6 @@ h3 {
   text-decoration: underline;
   background-color: rgb(240, 240, 240);
 }
-
 
 div a {
   color: #A4A400;
