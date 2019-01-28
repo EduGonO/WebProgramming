@@ -5,7 +5,7 @@ body {
 
 #MainHeader {
   color: rgb(123, 128, 138);
-  font: 32px "Avenir", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 32px "Avenir", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -31,6 +31,7 @@ li {
 }
 
 li a {
+  font: 32px "Avenir", Helvetica, Arial, sans-serif;
   display: block;
   color: white;
   text-align: center;
