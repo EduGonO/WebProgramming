@@ -17,13 +17,7 @@ header {
   color: #e6e6e6;
 }
 
-nav {
-  float: left;
-  width: 33%;
-  height: 300px;
-  background: #ccc;
-  padding: 20px;
-}
+
 
 article { /*Top 25 Cooking*/
   float: left;
@@ -41,11 +35,6 @@ article a { /*Links/Photo Labels*/
   text-decoration: none;
   color: #e6e6e6;
   font-size: 14px;
-  padding: 16px;
-}
-
-article a:hover { /*Makes the background go dark when the mouse goes over it*/
-  background-color: rgb(62, 64, 73);
 }
 
 article { /*Roasted Duck Recipie*/
