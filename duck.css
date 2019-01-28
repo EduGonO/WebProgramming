@@ -28,7 +28,7 @@ h2 {
   background-color: rgb(240, 240, 240);
 }
 
-ul.BulletDuck {
+ul.bullet {
   list-style-image: url('/im/duck.png');
 }
 
