@@ -5,7 +5,7 @@ body {
 
 #MainHeader {
   color: rgb(123, 128, 138);
-  font: 22px "Avenir", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 32px "Avenir", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -13,10 +13,11 @@ h1 {
   text-align: center;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+#Navigation {
+  background-color: rgb(47, 50, 60);
+  color: rgb(123, 128, 138);
 }
+
 ul {
   list-style-type: none;
   margin: 0;
