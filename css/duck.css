@@ -29,7 +29,7 @@ h2 {
   background-color: rgb(240, 240, 240);
 }
 
-li {
+li { list-style-image: url('im/duck3.png')
 }
 
 li {
