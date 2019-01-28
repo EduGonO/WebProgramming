@@ -1,9 +1,8 @@
 body {
-  /*background-image: url("im/8f.jpg");*/
-  background: url(img/8f.jpg) repeat 0 0;
-  /*background-size: 100px;*/
   color: #404040;
   font: 11px Georgia, Garamond,sans-serif;
+  background-image: url("im/silverware.jpg");
+  background-repeat: repeat;
 }
 
 h1 {
@@ -29,16 +28,8 @@ h2 {
   background-color: rgb(240, 240, 240);
 }
 
-ol {
-  list-style-image: url('im/duck3.png')
-}
-
-ul.bullet {
-  list-style-image: url('/im/duck3.png')
-}
-
-#BulletDuck {
-  list-style-image: url("im/duck3.png")
+ul.BulletDuck {
+  list-style-image: url('/im/duck.png');
 }
 
 h3 {
