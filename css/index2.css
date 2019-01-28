@@ -33,7 +33,7 @@ article {
   padding: 20px;
   width: 33%;
   text-decoration: none;
-  background-color: rgb(163, 128, 148);
+  background-color: rgb(163, 18, 148);
   color: #e6e6e6;
   height: 300px; /* only for demonstration, should be removed */
 }
@@ -44,7 +44,7 @@ article { /*Roasted Duck Recipie*/
   padding: 20px;
   width: 33%;
   text-decoration: none;
-  background-color: rgb(123, 128, 148);
+  background-color: rgb(123, 128, 18);
   color: #e6e6e6;
   height: 300px; /* only for demonstration, should be removed */
 }
@@ -54,7 +54,7 @@ article {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   padding: 20px;
   width: 33%;
-  background-color: rgb(113, 128, 158);
+  background-color: rgb(13, 128, 158);
   color: #e6e6e6;
   height: 300px; /* only for demonstration, should be removed */
 }
