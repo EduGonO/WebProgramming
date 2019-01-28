@@ -4,11 +4,13 @@
 
 body {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
+  background-color: rgb(47, 50, 60);
+  color: rgb(123, 128, 138);
 }
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: rgb(47, 50, 60);
   padding: 30px;
   text-align: center;
   font-size: 35px;
