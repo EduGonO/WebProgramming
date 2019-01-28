@@ -43,6 +43,10 @@ article a { /*Links/Photo Labels*/
   font-size: 14px;
 }
 
+article a:hover { /*Makes the background go dark when the mouse goes over it*/
+  background-color: rgb(62, 64, 73);
+}
+
 article { /*Roasted Duck Recipie*/
   float: left;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
