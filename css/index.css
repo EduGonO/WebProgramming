@@ -8,7 +8,6 @@ body {
   color: #e6e6e6;
 }
 
-/* Style the header */
 header {
   background-color: rgb(47, 50, 53); /* GRIS FINAL */
   padding: 20px;
@@ -16,8 +15,6 @@ header {
   font-size: 30px;
   color: #e6e6e6;
 }
-
-
 
 article { /*Top 25 Cooking*/
   float: left;
@@ -48,7 +45,7 @@ article { /*Roasted Duck Recipie*/
   height:
 }
 
-article {
+article { /* About me */
   float: left;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   padding: 20px;
@@ -58,23 +55,20 @@ article {
   height: 300px;
 }
 
-/* Clear floats after the columns */
 section:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Style the footer */
-footer {
+footer { /* Footer */
   background-color: rgb(47, 50, 53);
   padding: 15px;
   text-align: center;
   color: #e6e6e6;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
+@media (max-width: 600px) { /* Makes boxea vertical on iPhone */
   nav, article {
     width: 100%;
     height: auto;
