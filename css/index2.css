@@ -5,7 +5,7 @@
 body {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   background-color: rgb(47, 50, 53);
-  color: rgb(123, 128, 138);
+  color: #e6e6e6;
 }
 
 /* Style the header */
@@ -14,7 +14,7 @@ header {
   padding: 20px;
   text-align: center;
   font-size: 30px;
-  color: white;
+  color: #e6e6e6;
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -29,7 +29,7 @@ nav {
 /* Style the list inside the menu */
 nav ul {
   font: 22px "Avenir", Helvetica, Arial, sans-serif;
-  color: rgb(123, 128, 138);
+  color: #e6e6e6;
   display: block;
   text-align: center;
   text-decoration: none;
@@ -42,6 +42,7 @@ article {
   padding: 20px;
   width: 33%;
   background-color: rgb(143, 128, 148);
+  color: #e6e6e6;
   height: 300px; /* only for demonstration, should be removed */
 }
 
@@ -50,6 +51,7 @@ article {
   padding: 20px;
   width: 33%;
   background-color: rgb(113, 128, 158);
+  color: #e6e6e6;
   height: 300px; /* only for demonstration, should be removed */
 }
 
