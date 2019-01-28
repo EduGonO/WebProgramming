@@ -29,13 +29,7 @@ h2 {
   background-color: rgb(240, 240, 240);
 }
 
-ol {
-}
-
-li {
-}
-
-ul {
+ul.bullet {
   list-style-image: url('im/duck3.png')
 }
 
