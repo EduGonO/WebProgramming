@@ -6,6 +6,7 @@ body {
 #MainHeader {
   color: rgb(123, 128, 138);
   font: 32px "Avenir", Helvetica, Arial, sans-serif;
+  text-decoration: bold;
 }
 
 h1 {
@@ -26,16 +27,14 @@ ul {
   background-color: rgb(255, 255, 255);
 }
 
-li {
-  float: left;
-}
 
 li a {
   font: 22px "Avenir", Helvetica, Arial, sans-serif;
   color: rgb(123, 128, 138);
   display: block;
   text-align: center;
-  padding: 26px;
+  padding: 16px;
+  text-decoration: none;
 }
 
 li a:hover {
