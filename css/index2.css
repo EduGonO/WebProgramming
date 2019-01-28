@@ -41,6 +41,7 @@ article a { /*Links/Photo Labels*/
   text-decoration: none;
   color: #e6e6e6;
   font-size: 14px;
+  padding: 16px;
 }
 
 article a:hover { /*Makes the background go dark when the mouse goes over it*/
