@@ -29,7 +29,7 @@ h2 {
   background-color: rgb(240, 240, 240);
 }
 
-li { list-style-image: url('im/duck3.png')
+ol {
 }
 
 li {
@@ -47,11 +47,8 @@ ul {
   color: #A4A400;
   font: 18px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
   text-decoration: underline;
-  letter-spacing: 0.25em
   background-color: rgb(240, 240, 240);
 }
-
-
 
 #Review {
   color: #404040;
