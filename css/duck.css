@@ -29,6 +29,20 @@ h2 {
   background-color: rgb(240, 240, 240);
 }
 
+li {
+}
+
+li {
+}
+
+ul {
+  list-style-image: url('im/duck3.png')
+}
+
+#BulletDuck {
+  list-style-image: url('im/duck3.png')
+}
+
 #Header {
   color: #A4A400;
   font: 18px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -36,9 +50,7 @@ h2 {
   background-color: rgb(240, 240, 240);
 }
 
-#BulletDuck {
-  list-style-image: url('im/duck3.png')
-}
+
 
 #Review {
   color: #404040;
