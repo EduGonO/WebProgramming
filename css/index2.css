@@ -37,10 +37,11 @@ nav ul {
   padding: 16px;
 }
 
-article {
+article { /*Roasted Duck Recipie*/
   float: left;
   padding: 20px;
   width: 33%;
+  text-decoration: none;
   background-color: rgb(143, 128, 148);
   color: #e6e6e6;
   height: 300px; /* only for demonstration, should be removed */
