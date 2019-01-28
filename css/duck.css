@@ -15,7 +15,7 @@ body {
 }
 
 .BulletDuck {
-  list-style-image: url("im/duck3.png")
+  list-style-image: url('im/duck3.png')
 }
 
 #Header {
