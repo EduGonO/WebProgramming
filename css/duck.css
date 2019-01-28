@@ -44,6 +44,12 @@ h3 {
   background-color: rgb(240, 240, 240);
 }
 
+section {
+  color: #404040;
+  font: 11px Georgia, Garamond,sans-serif;
+  background-color: rgb(255, 255, 203);
+}
+
 h3 {
   color: #A4A400;
   font: 18px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
