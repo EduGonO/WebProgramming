@@ -13,8 +13,8 @@ body {
   background-color: rgb(240, 240, 240)
 }
 
-ul.BulletDuck {
-  list-style-image: url('/im/duck3.png');
+.BulletDuck {
+  list-style-image: url("im/duck3.png");
 }
 
 #Header {
