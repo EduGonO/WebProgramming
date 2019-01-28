@@ -14,7 +14,7 @@ body {
   background-color: rgb(240, 240, 240)
 }
 
-.BulletDuck {
+#BulletDuck {
   list-style-image: url('im/duck3.png')
 }
 
