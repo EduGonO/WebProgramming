@@ -30,10 +30,10 @@ li {
   float: left;
 }
 
-#Menu {
-  font: 32px "Avenir", Helvetica, Arial, sans-serif;
+li a {
+  font: 22px "Avenir", Helvetica, Arial, sans-serif;
   display: block;
-  color: white;
+  color: rgb(123, 128, 138);
   text-align: center;
   padding: 16px;
   text-decoration: none;
