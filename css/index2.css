@@ -38,6 +38,11 @@ article {
   height: 300px; /* only for demonstration, should be removed */
 }
 
+article a {
+  font: 22px "Avenir", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
 article { /*Roasted Duck Recipie*/
   float: left;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
