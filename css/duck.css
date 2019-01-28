@@ -12,6 +12,7 @@ h1 {
   font-weight: bold;
   text-decoration: underline;
   text-align: center;
+  letter-spacing: 0.25em
   background-color: rgb(240, 240, 240)
 }
 
@@ -19,6 +20,7 @@ h2 {
   color: #A4A400;
   font: 18px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
   text-decoration: underline;
+  letter-spacing: 0.25em
   background-color: rgb(240, 240, 240);
 }
 
@@ -26,6 +28,7 @@ h2 {
   color: #A4A400;
   font: 18px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
   text-decoration: underline;
+  letter-spacing: 0.25em
   background-color: rgb(240, 240, 240);
 }
 
@@ -47,6 +50,7 @@ ul {
   color: #A4A400;
   font: 18px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
   text-decoration: underline;
+  letter-spacing: 0.25em
   background-color: rgb(240, 240, 240);
 }
 
