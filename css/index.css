@@ -30,7 +30,8 @@ li {
   float: left;
 }
 
-li a {
+#Menu {
+  font: 32px "Avenir", Helvetica, Arial, sans-serif;
   display: block;
   color: white;
   text-align: center;
