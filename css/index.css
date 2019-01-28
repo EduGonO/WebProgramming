@@ -1,13 +1,11 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(47, 50, 60);
+  color: rgb(123, 128, 138);
 }
 
 #MainHeader {
-  color: #A4A400;
+  color: rgb(123, 128, 138);
   font: 22px "Avenir", "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  text-decoration: underline;
-  background-color: rgb(240, 240, 240)
 }
 
 h1 {
