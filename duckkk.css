@@ -5,12 +5,27 @@ body {
   background-repeat: repeat;
 }
 
-#MainHeader {
+h1 {
   color: #A4A400;
   font: 22px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
   font-weight: bold;
   text-decoration: underline;
+  text-align: center;
   background-color: rgb(240, 240, 240)
+}
+
+h2 {
+  color: #A4A400;
+  font: 18px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-decoration: underline;
+  background-color: rgb(240, 240, 240);
+}
+
+h2 {
+  color: #A4A400;
+  font: 18px "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-decoration: underline;
+  background-color: rgb(240, 240, 240);
 }
 
 ul.BulletDuck {
