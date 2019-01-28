@@ -31,11 +31,11 @@ li {
 }
 
 li a {
-  font: 32px "Avenir", Helvetica, Arial, sans-serif;
+  font: 18px "Avenir", Helvetica, Arial, sans-serif;
   display: block;
-  color: white;
+  color: rgb(123, 128, 138;
   text-align: center;
-  padding: 16px;
+  padding: 40px;
   text-decoration: none;
 }
 
