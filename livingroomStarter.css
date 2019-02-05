@@ -7,25 +7,26 @@ p{
 #kitchen{
 	width: 300px;
 	height:100px;
-	border: 2px solid red;
+	border: 1px solid red;
   border-radius: 10px;
-	margin-top: auto;
+	margin: auto;
 	padding: 10px;
 
 }
 #lounge{
 	width: 300px;
 	height:100px;
-	border: 2px solid blue;
-  border-radius: 10px;
 	margin: auto;
+	margin-top: 10px;
+	border: 1px solid blue;
+  border-radius: 10px;
 	padding: 10px;
 }
 
 #bedroom{
 	width: 300px;
 	height:100px;
-
+	margin-top: 10px;
 	border: 2px solid green;
   border-radius: 10px;
 	margin: auto;
@@ -35,6 +36,7 @@ p{
 #bathroom{
 	width: 300px;
 	height:100px;
+	margin-top: 10px;
 	border: 2px solid pink;
   border-radius: 10px;
 	margin: auto;
@@ -43,6 +45,7 @@ p{
 #freezer{
 	width: 150px;
 	height:50px;
+	margin-top: 10px;
 	background-color: red;
 	border: 2px solid black;
   border-radius: 10px;
