@@ -1,5 +1,5 @@
 function first() {
-  var inches = promt("Enter inches");
+  var inches = prompt("Enter inches");
   if(inches!=null) {
     var cm = inches*2.54;
   }
