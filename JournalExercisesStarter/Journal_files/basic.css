@@ -29,7 +29,6 @@ h1, h2 {
 	font-family: "Century Gothic";
 	margin: 3px;
 	padding: 0px;
-	float: right;
 }
 
 img {
@@ -65,6 +64,7 @@ ul {
 
 #header {
 	background-color: #A8F0F0
+	float: right;
 }
 
 #header h2 {
