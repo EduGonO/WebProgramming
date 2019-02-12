@@ -45,25 +45,27 @@ ul {
 }
 
 #container {
-	border: 5px green solid;
+	border: 10px white solid;
 }
 
 .date {
-	border: 5px purple solid;
+	border-bottom: : 2px blue dashed;
 	font-weight: bold;
+
 }
 
 .entry {
-	border: 5px blue solid;
+	border: 4px #C239E9 solid;
 	background-color: #E8FBFB;
 	padding: 5px;
 	margin-top: 10px;
+	border-radius: 15px;
 }
 
 #header {
-	border: 5px red solid;
+	background-color: #A8F0F0
 }
 
 #header h2 {
-	border: 5px orange solid;
+	font-size: 14pt;
 }
