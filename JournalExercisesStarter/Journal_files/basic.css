@@ -20,7 +20,7 @@ blockquote {
 
 body {
 	font-family: "Georgia";
-	color: #000000;
+	color: #3B8E96;
 }
 
 
@@ -34,6 +34,7 @@ h1, h2 {
 img {
 	border-style: none;
 	padding: 5px;
+	float: right;
 }
 
 span {
@@ -62,14 +63,18 @@ ul {
 	border-radius: 15px;
 }
 
+.friends {
+	float: left;
+}
+
 #header {
-	background-color: #A8F0F0
+	background-color: #A8F0F0;
+	margin: 10px;
+	text-align: right;
 }
 
 #header h1 {
-	float: right;
 }
 #header h2 {
 	font-size: 14pt;
-	float: right;
 }
