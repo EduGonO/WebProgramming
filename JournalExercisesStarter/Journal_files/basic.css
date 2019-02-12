@@ -47,6 +47,7 @@ ul {
 
 .date {
 	border: 5px purple solid;
+	font-weight: bold;
 }
 
 .entry {
