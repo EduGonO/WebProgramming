@@ -37,6 +37,8 @@
 					$nome."(".$anno.")";
 					?></h1>
 		<div class="box1">
+
+      #FOTO Y INFO
 			<div class="boxsx">
 				<div>
 					<img src="<?= $overviewimg #Con quetsa variabile richiamo il path dell'immagine ?>" alt="general overview"/>
@@ -51,6 +53,8 @@
 					?>
 				</dl>
 			</div>
+
+
 			<div class="boxdx">
 				<?php
 					#In questa sezione ho dichiarato tutte le variabili globali usate nel sito
