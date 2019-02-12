@@ -6,3 +6,4 @@ function first() {
   document.write("Inches: " + inches + "<br/>");
   document.write("Cm: " + cm + "<br/>");
 }
+first()
