@@ -55,6 +55,9 @@ ul {
 
 .entry {
 	border: 5px blue solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
 }
 
 #header {
