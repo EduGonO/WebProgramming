@@ -66,6 +66,10 @@ ul {
 	background-color: #A8F0F0
 }
 
+#header h1 {
+	float: right;
+}
 #header h2 {
 	font-size: 14pt;
+	float: right;
 }
