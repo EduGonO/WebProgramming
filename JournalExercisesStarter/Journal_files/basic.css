@@ -47,8 +47,6 @@ ul {
 
 #container {
 	border: 10px white solid;
-	float: left;
-
 }
 
 .date {
@@ -66,8 +64,13 @@ ul {
 	overflow: auto;
 }
 
+.entry #der {
+	margin-left: 100px;
+}
+
 .friends {
 	float: left;
+	margin-top: 20px;
 	background-color: #A5DEDE;
 	border: 4px blue solid;
 	margin: 10px;
