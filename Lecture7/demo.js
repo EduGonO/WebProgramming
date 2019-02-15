@@ -1,3 +1,5 @@
+/* Lecture 7 */
+
 function first() {
   var inches = prompt("Enter inches");
   if(inches!=null) {
@@ -7,3 +9,8 @@ function first() {
   document.write("Cm: " + cm + "<br/>");
 }
 first()
+
+let move() {
+  imgObj = document.getElementById('myImage');
+  
+}
