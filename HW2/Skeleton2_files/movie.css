@@ -1,4 +1,4 @@
-body  {/* SI */
+body  {
   background-image: url("moviebg.png");
   background-repeat: repeat;
   font-family: Arial, Helvetica, sans-serif;
@@ -6,7 +6,20 @@ body  {/* SI */
   margin: 0px;
   font-size: 10pt;
 }
-h1  {/* SI */
+
+/* Page Title */
+.banner {
+  background-image: url("rancidbannerbg.png");
+}
+.banner img {
+  display: block;
+  margin: auto;
+}
+
+
+
+
+h1  {/* TMNT */
   font-size: 24pt;
   text-align: center;
   font-family: Georgia, "Times New Roman", sans-serif;
@@ -14,63 +27,39 @@ h1  {/* SI */
 }
 p {/* SI */
   font-family: Verdana;
-  font-size: 8pt;
+  font-size: 10px;
 }
 
-.box1 { /* SI */
+.main { /* Central Box */
   border: 5px solid grey;
   border-radius: 20px;
   display: block;
-  margin: auto; /*Keeps in center*/
+  margin: auto;
   width: 800px;
   height: 1180px;
   background-color: #EEEEEE;
+  box-shadow: 5px 5px 5px #888888;
 }
 
-.banner {/* SI */
-  background-image: url("rancidbannerbg.png");
-  height: 50px;
-}
 
-.banner img { /* SI */
-  display: block;
-  margin: auto;
-}
 
-.box1 img {
-  margin-right: 5px;
-}
-.box1 .boxdx {
-  position: absolute;
-  width: 200px;
-  margin-left: 10px;
-}
 
-dt {
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-dd ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-.box1 .titolo {
+/* Top */
+.main .title {
   background-image: url("rottenlargebg.png");
   background-repeat: repeat-x;
-  border-radius: 7px 0px 0px 0px;
+  border-radius: 20px;
   height: 110px;
 }
-
-/*  33%  */
-.box1 .titolo span {
+.main .title img {
+  border-radius: 15px;
+}
+.main .title span {
   vertical-align: top;
   font-size: 48pt;
   font-weight: bold;
   color: red;
 }
-
 #progressbar {
   background-color: #364827;
   border-radius: 20px;
@@ -80,7 +69,6 @@ dd ul {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
 #progressbar>div {
   background-color: #506937;
   width: 33%;
@@ -88,28 +76,24 @@ dd ul {
   border-radius: 20px;
 }
 
-.box1 .prima-colonna { /* Primera columna */
+
+
+
+/* Primera columna */
+.main .izq {
   position: absolute;
   width: 260px;
   margin-left: 10px;
   margin-right: 5px;
   margin-top: 5px;
 }
-.box1 .seconda-colonna { /* Segunda columna */
-  position: absolute;
-  width: 260px;
-  margin-left: 285px;
-  margin-right: 8px;
-  margin-top: 5px;
-}
-.box1 .prima-colonna img {
+
+.main .izq img {
   float: left;
   margin-right: 5px;
 }
-.box1 .seconda-colonna img {
-  float: left;
-}
-.box1 .prima-colonna .quote {
+
+.main .izq .quote {
   min-height: 25px;
   padding: 5px;
   margin-right: 8px;
@@ -120,7 +104,21 @@ dd ul {
   border-radius: 20px;
 }
 
-.box1 .seconda-colonna .quote {
+
+
+/* Segunda columna */
+.main .der {
+  position: absolute;
+  width: 260px;
+  margin-left: 285px;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+.main .der img {
+  float: left;
+  margin-right: 5px;
+}
+.main .der .quote {
   min-height: 25px;
   padding: 5px;
   margin-right: 8px;
@@ -130,50 +128,63 @@ dd ul {
   border: 2px solid #CCCCCC;
   border-radius: 20px;
 }
+
 .review  {
-  margin-bottom: 20pt;
-}
-.review img {
-  margin-right: 5px;
-  float: left;
+  margin-bottom: 20px;
 }
 .review span {
-  vertical-align: top;
   font-style: italic;
 }
-.quote img {
-  margin-right: 5px;
-  float: left;
-}
+
+
+
 /* Derecha */
-#Info {
+.Info { /* Box */
   background-color: #A2B964;
   font-size: 10pt;
   font-family: Arial, Helvetica, sans-serif;
-  border-radius: 0px 7px 0px 0px;
+  border-radius:  0px 15px 15px 0px;
   height: 1180px;
   position: absolute;
   margin-left: 550px;
   width: 250px;
 }
-#Info img {
-  border-radius: 0px 7px 0px 0px;
+.Info img {
+  border-radius: 0px 15px 0px 0px;
 }
-p.conta {
-  border-radius: 0px 0px 7px 7px;
+.main .info { /* Text */
+  width: 220px;
+  margin-left: 10px;
+}
+dt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+dd ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
+
+/* Bottom */
+p.bottom {
+  border-radius: 0px 0px 15px 15px;
   padding: 5px;
   position: relative;
   background-color: #A2B964;
   text-align: center;
-  top: 1065px;
+  top: 1038px;
 }
+
+
+
+/* Footer */
 .footer {
   font-size: 25%;
   opacity: 0.5;
   position: fixed;
   right: 0;
   bottom: 0;
-}
-.link {
-  list-style-type: none;
 }
