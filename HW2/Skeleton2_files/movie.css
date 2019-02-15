@@ -23,10 +23,9 @@ p {/* SI */
   display: block;
   margin: auto; /*Keeps in center*/
   width: 800px;
-  min-height: 1017px;
+  height: 1180px;
   background-color: #EEEEEE;
 }
-
 
 .banner {/* SI */
   background-image: url("rancidbannerbg.png");
@@ -35,7 +34,7 @@ p {/* SI */
 
 .banner img { /* SI */
   display: block;
-  margin: 0px auto 0px;
+  margin: auto;
 }
 
 .box1 img {
@@ -49,13 +48,19 @@ p {/* SI */
 
 dt {
   font-weight: bold;
-  margin-top: 10pt;
+  margin-top: 10px;
+}
+
+dd ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 .box1 .titolo {
   background-image: url("rottenlargebg.png");
   background-repeat: repeat-x;
   border-radius: 7px 0px 0px 0px;
-  height: 83px;
+  height: 110px;
 }
 
 /*  33%  */
@@ -66,17 +71,36 @@ dt {
   color: red;
 }
 
+#progressbar {
+  background-color: #364827;
+  border-radius: 20px;
+  padding: 3px;
+  width: 520px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#progressbar>div {
+  background-color: #506937;
+  width: 33%;
+  height: 20px;
+  border-radius: 20px;
+}
+
 .box1 .prima-colonna { /* Primera columna */
   position: absolute;
   width: 260px;
   margin-left: 10px;
   margin-right: 5px;
+  margin-top: 5px;
 }
 .box1 .seconda-colonna { /* Segunda columna */
   position: absolute;
   width: 260px;
   margin-left: 285px;
   margin-right: 8px;
+  margin-top: 5px;
 }
 .box1 .prima-colonna img {
   float: left;
@@ -127,7 +151,7 @@ dt {
   font-size: 10pt;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 0px 7px 0px 0px;
-  height: 975px;
+  height: 1180px;
   position: absolute;
   margin-left: 550px;
   width: 250px;
@@ -135,13 +159,13 @@ dt {
 #Info img {
   border-radius: 0px 7px 0px 0px;
 }
-.box1>.conta {
+p.conta {
   border-radius: 0px 0px 7px 7px;
   padding: 5px;
   position: relative;
   background-color: #A2B964;
   text-align: center;
-  top: 975px;
+  top: 1065px;
 }
 .footer {
   font-size: 25%;
