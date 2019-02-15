@@ -1,126 +1,131 @@
-body  {
-  background-image: url("Skeleton2_files/moviebg.png");
+body  {/* SI */
+  background-image: url("moviebg.png");
   background-repeat: repeat;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0px;
   margin: 0px;
   font-size: 10pt;
 }
-h1  {
+h1  {/* SI */
   font-size: 24pt;
-  font-family: Tahoma, Verdana, sans-serif;
-  text-shadow: 3px 3px #999999;
   text-align: center;
+  font-family: Georgia, "Times New Roman", sans-serif;
+  text-shadow: 3px 3px #999999;
 }
-p {
+p {/* SI */
   font-family: Verdana;
   font-size: 8pt;
 }
-.banner {
-  background-image: url("Skeleton2_files/rancidbanner.png");
-  height: 50px;
-}
-.banner>img {
+
+.box1 { /* SI */
+  border: 5px solid grey;
+  border-radius: 20px;
   display: block;
-  margin: 0px auto 0px;
-}
-.box1 {
-  border: 4px solid grey;
-  border-radius: 10px;
-  display: block;
-  margin: auto;
+  margin: auto; /*Keeps in center*/
   width: 800px;
   min-height: 1017px;
+  background-color: #EEEEEE;
 }
-.box1>img {
-  margin-right: 5px;
-}
-.box1>.boxdx {
-  position: absolute;
-  margin-right: 250px;
-  width: 550px;
-}
-#tabella {
-  margin-left: 10pt;
-}
-#tabella dt {
-  font-weight: bold;
-  margin-top: 10pt;
-}
-.box1>.boxdx>.titolo {
-  background-image: url("Skeleton2_files/rancidbannerbg.png");
-  background-repeat: repeat-x;
-  border-radius: 7px 0px 0px 0px;
+
+
+.banner {/* SI */
+  background-image: url("rancidbannerbg.png");
   height: 50px;
 }
 
+.banner img { /* SI */
+  display: block;
+  margin: 0px auto 0px;
+}
+
+.box1 img {
+  margin-right: 5px;
+}
+.box1 .boxdx {
+  position: absolute;
+  width: 200px;
+  margin-left: 10px;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 10pt;
+}
+.box1 .titolo {
+  background-image: url("rottenlargebg.png");
+  background-repeat: repeat-x;
+  border-radius: 7px 0px 0px 0px;
+  height: 83px;
+}
+
 /*  33%  */
-.box1>.boxdx>.titolo>span {
+.box1 .titolo span {
   vertical-align: top;
   font-size: 48pt;
   font-weight: bold;
   color: red;
 }
-.box1>.boxdx>.titolo>.imgtit {
-  border-radius: 7px 0px 0px 0px;
-  height: 83px;
-}
-.box1>.boxdx>.prima-colonna {
+
+.box1 .prima-colonna { /* Primera columna */
   position: absolute;
-  width: 47%;
-  margin-left: 8px;
+  width: 260px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
-.box1>.boxdx>.seconda-colonna {
+.box1 .seconda-colonna { /* Segunda columna */
   position: absolute;
-  width: 47%;
-  margin-left: 53%;
+  width: 260px;
+  margin-left: 285px;
+  margin-right: 8px;
 }
-.box1>.boxdx>.prima-colonna>img {
+.box1 .prima-colonna img {
+  float: left;
+  margin-right: 5px;
+}
+.box1 .seconda-colonna img {
   float: left;
 }
-.box1>.boxdx>.seconda-colonna>img {
-  float: left;
-}
-.box1>.boxdx>.prima-colonna>.citazione {
+.box1 .prima-colonna .quote {
   min-height: 25px;
   padding: 5px;
   margin-right: 8px;
-  font-size: 8pt;
-  font-weight: bold;
-  background-color: #E8DC9B;
-  border: 2px solid grey;
-  border-radius: 10px;
+  font-size: 10pt;
+  font-family: Georgia, Times New Roman, sans-serif;
+  background-color: #FFFFFF;
+  border: 2px solid #CCCCCC;
+  border-radius: 20px;
 }
-.box1>.boxdx>.seconda-colonna>.citazione {
+
+.box1 .seconda-colonna .quote {
   min-height: 25px;
   padding: 5px;
   margin-right: 8px;
-  font-size: 8pt;
-  font-weight: bold;
-  background-color: #E8DC9B;
-  border: 2px solid grey;
-  border-radius: 10px;
+  font-size: 10pt;
+  font-family: Georgia, Times New Roman, sans-serif;
+  background-color: #FFFFFF;
+  border: 2px solid #CCCCCC;
+  border-radius: 20px;
 }
-.recensione  {
+.review  {
   margin-bottom: 20pt;
 }
-.recensione>img {
+.review img {
   margin-right: 5px;
   float: left;
 }
-.recensione>span {
+.review span {
   vertical-align: top;
   font-style: italic;
 }
-.citazione>img {
+.quote img {
   margin-right: 5px;
   float: left;
 }
 /* Derecha */
 #Info {
   background-color: #A2B964;
-  font-size: 8pt;
-  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
   border-radius: 0px 7px 0px 0px;
   height: 975px;
   position: absolute;
