@@ -13,8 +13,7 @@ function first() {
 // first()
 
 
-let imgObj = null;
-
+/*
 function init(){
   imgObj = document.getElementById('myImage');
   imgObj.style.position= 'relative';
@@ -26,3 +25,16 @@ function moveRight(){
 }
 
 window.onload =init;
+**/
+
+functon minNum() {
+  nums = new array();
+
+  i = prompt("Enter number");
+
+  nums.push(i);
+
+  alert(nums);
+}
+
+minNum()
