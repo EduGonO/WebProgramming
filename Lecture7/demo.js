@@ -23,18 +23,20 @@ function init(){
 function moveRight(){
   imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
 }
+*/
 
-window.onload =init;
-**/
 
-functon minNum() {
-  nums = new array();
+function minNum() {
+  let smallest = nums[0];
 
-  i = prompt("Enter number");
-
-  nums.push(i);
-
-  alert(nums);
+  for (i = 0; i < nums.length; i++) {
+    if(smallest>nums[i]) {
+      smallest = nums[i];
+    }
+  }
+  console.log(nums);
+  console.log(smallest);
 }
 
-minNum()
+let nums = [-1, 3.2, 12, 15, -4, 1, -12.5, 1, 8]
+minNum(nums)
