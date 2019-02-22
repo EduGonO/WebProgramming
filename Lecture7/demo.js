@@ -43,9 +43,13 @@ function okayClick() {
   alert("booyah");
 }
 
+function onLoad() {
+  let lucky = document.getElementById("Lucky");
+  lucky.action() = lucky();
+}
 function lucky() {
-  i = getRandomInt(10);
-  alert(getRandomInt(10));
+  document.getElementById("result");
+  result.innerHTML = "Lucky #: " + Math.floor(Math.random() * 11);
 }
 
 
