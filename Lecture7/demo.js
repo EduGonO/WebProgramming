@@ -20,11 +20,11 @@ function init(){
   imgObj.style.left = '0px';
 }
 
-*/
+
 function moveRight(){
   imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
 }
-
+*/
 
 
 function minNum() {
@@ -42,6 +42,12 @@ function minNum() {
 function okayClick() {
   alert("booyah");
 }
+
+function lucky() {
+  i = getRandomInt(10);
+  alert(getRandomInt(10));
+}
+
 
 let nums = [-1, 3.2, 12, 15, -4, 1, -12.5, 1, 8]
 minNum(nums)
