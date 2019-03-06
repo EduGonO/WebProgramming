@@ -1,5 +1,5 @@
 /* Lecture 7 */
-
+/*
 function first() {
   var inches = prompt("Enter inches");
   if(inches!=null) {
@@ -12,8 +12,8 @@ function first() {
 
 // first()
 
+*/
 
-/*
 function init(){
   imgObj = document.getElementById('myImage');
   imgObj.style.position= 'relative';
@@ -24,8 +24,8 @@ function init(){
 function moveRight(){
   imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
 }
-*/
 
+/*
 
 function minNum() {
   let smallest = nums[0];
@@ -54,4 +54,4 @@ function lucky() {
 
 
 let nums = [-1, 3.2, 12, 15, -4, 1, -12.5, 1, 8]
-minNum(nums)
+minNum(nums)*/
