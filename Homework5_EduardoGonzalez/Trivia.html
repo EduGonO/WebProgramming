@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<!--
+CSC 435 Homework 5: Trivia game
+-->
+<html>
+	<head>
+		<title>Trivia!</title>
+		<link rel="stylesheet" type="text/css" href="trivia.css">
+    <script src="trivia.js" type="text/javascript"></script>
+		<script type="text/javascript" src="trivia.json"></script>
+	</head>
+	<body>
+		<h1>Trivia-It!</h1>
+    <main>
+      <div class="controls">
+		    <button id=view-all>List Categories</button>
+      </div>
+      <div class="hidden" id="category-view">
+        <h2 class="hidden" id="categories-heading">Categories:</h2>
+		    <ul id="categories"></ul>
+      </div>
+      <div class="hidden" id="question-view">
+        <div class="controls">
+		      <button id="next">Next Question</button>
+        </div>
+		    <div class="hidden" id="card"></div>
+      </div>
+
+
+		      <button id="show">Show All</button>
+
+
+    </main>
+	</body>
+</html>
