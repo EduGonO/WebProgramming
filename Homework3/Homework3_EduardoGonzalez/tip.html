@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Tip Calculator </title>
+    <link href="tip.css" type="text/css" rel="stylesheet" />
+    <script src="tip.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+    <h1>Homework 3</h1>
+		<h3>Eduardo Gonzalez</h3>
+
+		<h2>Tip Calculator</h2>
+
+				<input class="Subtotal" type="text" size="2"/> $ Subtotal
+        <br>
+        <input type="range" min="1" max="50" value="25" class="slider" id="slider" oninput="calculate();" > % Tip
+
+			<div>
+				<button onclick="calculate();" id="calculate">Calculate!</button>
+			</div>
+
+      <hr>
+
+      <h3>Your Total:</h3>
+
+      <div id="result">
+
+        Tip: <span id = "tip"></span>%
+        <br>
+  			Tip: $ <span id = "tipTotal"></span>
+        <br>
+        Total: $ <span id = "total"></span>
+
+      </div>
+
+	</body>
+</html>

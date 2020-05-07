@@ -1,0 +1,17 @@
+input {
+  width: 100px;
+}
+
+.higher {
+	color: green;
+	font-weight: italic;
+}
+
+.lower {
+	color: red;
+	font-style: italic;
+}
+
+.correct {
+  font-weight: bold;
+}

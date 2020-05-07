@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Q1 </title>
+    <link href="Question1.css" type="text/css" rel="stylesheet" />
+    <script src="Question1.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+		<h1>Homework 3</h1>
+		<h3>Eduardo Gonzalez</h3>
+
+
+		Array: [1, 2, 3, 4, 1, 2, 3, 1, 2, 1]
+		<br>
+		Most frequent number:
+		<span id = 'Frequent'></span>
+		<br>
+		<button onclick="count();">Calculate!</button>
+
+
+		<h2>Grade Calculator</h2>
+
+		<div id="assignments">
+			<div class="hw">
+				HW <input id="e1" class="earned1" type="text" size="2" />
+				 / <input id="e2" class="max1" type="text" size="2" />
+			</div>
+
+			<div class="hw">
+				HW <input id="e3" class="earned2" type="text" size="2" />
+				 / <input id="e4" class="max2" type="text" size="2" />
+			</div>
+
+			<div class="hw">
+				HW <input id="e5" class="earned3" type="text" size="2" />
+				 / <input id="e6" class="max3" type="text" size="2" />
+			</div>
+		</div>
+
+		<div>
+			<label><input id="curve" type="checkbox" /> Curve +5 ?</label>
+		</div>
+
+		<div id="resultsarea">
+			<div>
+				<button onclick="compute();" id="compute">Compute!</button>
+				<button onclick="clearClick();" id="clear">Clear</button>
+			</div>
+
+			<span id = "resultsarea"></span>
+		</div>
+	</body>
+</html>
